@@ -1,5 +1,5 @@
   var container = document.querySelector('#masonry');
   var masonry = new Masonry(container, {
-    columnWidth: 50,
+    columnWidth: 10,
     itemSelector: '.item'
   });

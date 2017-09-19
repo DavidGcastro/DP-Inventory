@@ -1,40 +1,32 @@
-html{
+html {
 	background: white;
 }
-
-
-
-
-body{
+body {
 	margin: 0;
 	font-family: roboto;
 }
-
-h1{
+h1 {
 	font-weight: 200;
-
 }
-
 .container {
 	max-width: 1440px;
 }
 
 /*header*/
 
-.header{
+.header {
 	background: #2ec6ff;
 	height: 400px;
 	width: 100%;
-	margin:0;
+	margin: 0;
 	color: white;
-
-
+	margin-bottom: 10px;
 }
 .header h1 {
 	font-size: 5rem;
 	position: absolute;
-	top:220px;
-	left:50px;
+	top: 200px;
+	left: 50px;
 	letter-spacing: 3px;
 	margin-top: 0;
 }
@@ -43,79 +35,69 @@ h1{
 
 li p {
 	margin-top: 0;
-
 }
-
-nav{
+nav {
 	display: inline-block;
 	background: white;
 	position: fixed;
-     margin: 0;
-     width: 100%;
-
+	margin: 0;
+	width: 100%;
 }
-
-ul{
-
+ul {
 	list-style: none;
 	width: 100%;
 	margin-bottom: 0;
 	float: right;
 }
-
-.logo{
+.logo {
 	margin-left: 40px;
 	letter-spacing: 3px;
 	color: #767676;
 	font-weight: bold;
 }
-
-
 li a {
 	color: #2ec6ff;
 	float: left;
 	display: inline;
-	position:relative;
-	bottom:37px;
+	position: relative;
+	bottom: 37px;
 	left: 65%;
 	margin-right: 60px;
 	text-decoration: none;
 	font-size: 1.2rem;
 	font-weight: normal;
 	letter-spacing: 2px;
-	
 }
-
-a:hover{
-	color:#767676;
+a:hover {
+	color: #767676;
 }
 
 /*grid*/
 
-   .item {
-   		margin: 10px;
-        width:  50px;
-        height: 50px;
-        float: left;
-        background: #2296DD;
-/*        border: 2px solid #333;
-*/      }
+#masonry {
+	margin: 0 20px;
+}
 
-      .item.thumbnail {
-        width:  100px;
-        height: 100px;
-        background: #cfcfcf
-      }
-
-      .item.medium {
-        width:  150px;
-        height: 50px;
-        background: #A6E392
-      }
-
-      .item.large {
-        width:  200px;
-        height: 100px;
-        background: #D092E3
-
-
+.item {
+	margin: 3px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: #2296DD;
+	/*        border: 2px solid #333;
+*/
+}
+.item.thumbnail {
+	width: 100px;
+	height: 100px;
+	background: #cfcfcf
+}
+.item.medium {
+	width: 150px;
+	height: 50px;
+	background: #A6E392
+}
+.item.large {
+	width: 400px;
+	height: 300px;
+	background: #D092E3
