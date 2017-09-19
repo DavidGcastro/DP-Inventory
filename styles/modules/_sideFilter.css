@@ -1,0 +1,9 @@
+.sidefilter {
+    height: 100%; /* 100% Full-height */
+    width: 25%; /* 0 width - change this with JavaScript */
+/*    position: fixed;  Stay in place */
+    border: 2px black solid;
+    text-align: center;
+   
+
+}
