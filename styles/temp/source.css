@@ -13,7 +13,9 @@ margin: 40px  30px 40px 30px;
 }
 
 .container {
-    margin: 25px;
+    height: 100%;
+    margin: 50px;
+    overflow: hidden;
 }
 
 ul {
@@ -22,10 +24,23 @@ ul {
 
 }
 
-#masonry {
-	margin: 0 10px;
-    
-   
+span {
+    padding: 5px;
+}
+
+/*
+h2{
+  
+font-size: 1rem;
+}
+
+h1{
+    font-size: 1.25rem;
+}
+*/
+
+.fa-caret-down {
+   color: grey; 
 }
 
 .item {
@@ -60,14 +75,16 @@ nav {
 }
 
 .logo{
-    color: #767676;
-    letter-spacing: 2px;
+    color: white;
+    letter-spacing: 1.5px;
     font-weight: 600;
-    margin-right: 40px;
+    display: block;
+    background: #00AEEF;
+    padding: 0 10px;
 }
 
 ul {
-
+  
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -77,17 +94,18 @@ ul {
 
 li {
     float: left;
-    padding-right: 10px;
-    margin: 0 50px;
 
 }
 
 li a {
-
-    margin-top: 14px;   
-    display: block;
-    color: black;
-    padding: 10px 16px;
+   font-size: 1.1rem;
+   position: relative;
+   top:27px;
+   text-align: center;
+   left:85px;
+   margin-right:50px;
+   display: block;
+   color: black;
     text-decoration: none;
 }
 
@@ -97,25 +115,68 @@ a:hover {
 }
 
 .sidefilter {
-    height: 100%; /* 100% Full-height */
-    width: 25%; /* 0 width - change this with JavaScript */
-/*    position: fixed;  Stay in place */
-    border: 2px black solid;
-    text-align: center;
-   
+  width: 15%;
+  float: left;
+  height: 100%;
+/*    position: fixed;*/
+}
 
+.sidefilter h1 {
+    font-size: 1rem;
+    color:#282828;
+    font-weight: bold;
+    padding-bottom: 15px;
+    width: 100%;
+    margin-bottom: 0;
+    border-bottom: 2px #F5F5F5	 solid;
+    
+}
+
+.sidefilter h2 {
+    font-size: .8rem;
+}
+
+.sidefilter > p{
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.sidefilter > p:hover {
+    color: white;
+    background-color: #DDE1E6 ;
+ 
+}
+
+.seperator_icon {
+    
+    color:#2ec6ff;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+seperator:hover{
+    color: initial; /* Takes initial value of the property which is black in this case */
+}
+
+.header{
+    width: 91%;
 }
 
 .slogan {
     text-align: center;
-     margin: 75px 0;
-     margin-right: 20px;
-     color: #2ec6ff;
-     letter-spacing: 2px;
+    color: #2ec6ff;
+    letter-spacing: 2px;
     font-weight: normal;
+    margin: 80px 0;
+    font-size: 2rem;
 }
 
-.pagecontent {
-    margin-left: 25%;
-  
+.section {
+    width: 100%;
+    height: 100%;
+}
+
+.pagecontent{
+    margin-left: 20%;
+    width: 100%;
 }

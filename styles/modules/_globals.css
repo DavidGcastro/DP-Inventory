@@ -13,7 +13,9 @@ margin: 40px  30px 40px 30px;
 }
 
 .container {
-    margin: 25px;
+    height: 100%;
+    margin: 50px;
+    overflow: hidden;
 }
 
 ul {
@@ -22,3 +24,21 @@ ul {
 
 }
 
+span {
+    padding: 5px;
+}
+
+/*
+h2{
+  
+font-size: 1rem;
+}
+
+h1{
+    font-size: 1.25rem;
+}
+*/
+
+.fa-caret-down {
+   color: grey; 
+}

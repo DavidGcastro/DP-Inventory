@@ -1,9 +1,45 @@
-.sidefilter {
-    height: 100%; /* 100% Full-height */
-    width: 25%; /* 0 width - change this with JavaScript */
-/*    position: fixed;  Stay in place */
-    border: 2px black solid;
-    text-align: center;
-   
 
+.sidefilter {
+  width: 15%;
+  float: left;
+  height: 100%;
+/*    position: fixed;*/
 }
+
+.sidefilter h1 {
+    font-size: 1rem;
+    color:#282828;
+    font-weight: bold;
+    padding-bottom: 15px;
+    width: 100%;
+    margin-bottom: 0;
+    border-bottom: 2px #F5F5F5	 solid;
+    
+}
+
+.sidefilter h2 {
+    font-size: .8rem;
+}
+
+.sidefilter > p{
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.sidefilter > p:hover {
+    color: white;
+    background-color: #DDE1E6 ;
+ 
+}
+
+.seperator_icon {
+    
+    color:#2ec6ff;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+seperator:hover{
+    color: initial; /* Takes initial value of the property which is black in this case */
+} 
+

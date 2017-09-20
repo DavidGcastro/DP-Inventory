@@ -2,16 +2,17 @@ nav {
    width: 100%;
 
 }
-
 .logo{
-    color: #767676;
-    letter-spacing: 2px;
+    color: white;
+    letter-spacing: 1.5px;
     font-weight: 600;
-    margin-right: 40px;
+    display: block;
+    background: #00AEEF;
+    padding: 0 10px;
 }
 
 ul {
-
+  
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -21,17 +22,18 @@ ul {
 
 li {
     float: left;
-    padding-right: 10px;
-    margin: 0 50px;
 
 }
 
 li a {
-
-    margin-top: 14px;   
-    display: block;
-    color: black;
-    padding: 10px 16px;
+   font-size: 1.1rem;
+   position: relative;
+   top:27px;
+   text-align: center;
+   left:85px;
+   margin-right:50px;
+   display: block;
+   color: black;
     text-decoration: none;
 }
 
