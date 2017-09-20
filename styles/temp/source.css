@@ -28,17 +28,6 @@ span {
     padding: 5px;
 }
 
-/*
-h2{
-  
-font-size: 1rem;
-}
-
-h1{
-    font-size: 1.25rem;
-}
-*/
-
 .fa-caret-down {
    color: grey; 
 }
@@ -178,5 +167,8 @@ seperator:hover{
 
 .pagecontent{
     margin-left: 20%;
-    width: 100%;
+
+  
+    overflow-x: auto;
+ 
 }

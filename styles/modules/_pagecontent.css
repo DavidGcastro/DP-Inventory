@@ -19,5 +19,8 @@
 
 .pagecontent{
     margin-left: 20%;
-    width: 100%;
+
+  
+    overflow-x: auto;
+ 
 }
