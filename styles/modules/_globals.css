@@ -1,34 +1,27 @@
-html{
-    background: white;
-    max-width: 1440px;
-/*    font-family: 'Roboto', sans-serif;*/
-    font-family: 'Open Sans', sans-serif;
-
-
+html {
+  background: #F5F5F5;
+  max-width: 1440px;
+  font-family: 'Open Sans', sans-serif;
 }
-
-body{
-margin: 40px  30px 40px 30px; 
- border-top: 2px #F5F5F5 solid;    
+body {
+  background: white;
+  max-width: 1440px;
+  margin: 0 auto;
+  border-top: 2px #F5F5F5 solid;
 }
-
 .container {
-    height: 100%;
-    margin: 50px;
-    overflow: hidden;
+  border-top: 2px #F5F5F5 solid;
+  height: 100%;
+  margin: 40px;
+  padding: 30px;
+  /*    overflow: hidden;*/
 }
-
 ul {
-    list-style: none;
-  
-
+  list-style: none;
 }
-
 span {
-    padding: 5px;
+  padding: 5px;
 }
-
-
 .fa-caret-down {
-   color: grey; 
+  color: grey;
 }

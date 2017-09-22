@@ -1,24 +1,22 @@
-
-
 .item {
-	margin: 3px;
-	width: 50px;
-	height: 50px;
-	float: left;
-	background: #2296DD;
+  margin: 3px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  background: #2296DD;
 }
 .item.thumbnail {
-	width: 100px;
-	height: 100px;
-	background: #cfcfcf
+  width: 100px;
+  height: 100px;
+  background: #cfcfcf
 }
 .item.medium {
-	width: 150px;
-	height: 50px;
-	background: #A6E392
+  width: 150px;
+  height: 50px;
+  background: #A6E392
 }
 .item.large {
-	width: 400px;
-	height: 300px;
-	background: #D092E3
+  width: 300px;
+  height: 200px;
+  background: #D092E3
 }

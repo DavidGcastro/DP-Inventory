@@ -1,174 +1,136 @@
-html{
-    background: white;
-    max-width: 1440px;
-/*    font-family: 'Roboto', sans-serif;*/
-    font-family: 'Open Sans', sans-serif;
-
-
+html {
+  background: #F5F5F5;
+  max-width: 1440px;
+  font-family: 'Open Sans', sans-serif;
 }
-
-body{
-margin: 40px  30px 40px 30px; 
- border-top: 2px #F5F5F5 solid;    
+body {
+  background: white;
+  max-width: 1440px;
+  margin: 0 auto;
+  border-top: 2px #F5F5F5 solid;
 }
-
 .container {
-    height: 100%;
-    margin: 50px;
-    overflow: hidden;
+  border-top: 2px #F5F5F5 solid;
+  height: 100%;
+  margin: 40px;
+  padding: 30px;
+  /*    overflow: hidden;*/
 }
-
 ul {
-    list-style: none;
-  
-
+  list-style: none;
 }
-
 span {
-    padding: 5px;
+  padding: 5px;
 }
-
 .fa-caret-down {
-   color: grey; 
+  color: grey;
 }
-
 .item {
-	margin: 3px;
-	width: 50px;
-	height: 50px;
-	float: left;
-	background: #2296DD;
+  margin: 3px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  background: #2296DD;
 }
-
 .item.thumbnail {
-	width: 100px;
-	height: 100px;
-	background: #cfcfcf
+  width: 100px;
+  height: 100px;
+  background: #cfcfcf
 }
-
 .item.medium {
-	width: 150px;
-	height: 50px;
-	background: #A6E392
+  width: 150px;
+  height: 50px;
+  background: #A6E392
 }
-
 .item.large {
-	width: 400px;
-	height: 300px;
-	background: #D092E3
+  width: 300px;
+  height: 200px;
+  background: #D092E3
 }
-
 nav {
-   width: 100%;
-
+  width: 100%;
 }
-
-.logo{
-    color: white;
-    letter-spacing: 1.5px;
-    font-weight: 600;
-    display: block;
-    background: #00AEEF;
-    padding: 0 10px;
+.logo {
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  display: block;
+  background: #00AEEF;
+  padding: 0 10px;
 }
-
 ul {
-  
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
-
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-
 li {
-    float: left;
-
+  float: left;
 }
-
 li a {
-   font-size: 1.1rem;
-   position: relative;
-   top:27px;
-   text-align: center;
-   left:85px;
-   margin-right:50px;
-   display: block;
-   color: black;
-    text-decoration: none;
+  font-size: 1.1rem;
+  position: relative;
+  top: 27px;
+  text-align: center;
+  left: 85px;
+  margin-right: 50px;
+  display: block;
+  color: black;
+  text-decoration: none;
 }
-
 a:hover {
-    margin-bottom: 0px;
-    border-bottom: 2px #2ec6ff solid;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+  border-bottom: 2px #2ec6ff solid;
 }
-
 .sidefilter {
   width: 15%;
   float: left;
   height: 100%;
-/*    position: fixed;*/
+  /*    position: fixed;*/
 }
-
 .sidefilter h1 {
-    font-size: 1rem;
-    color:#282828;
-    font-weight: bold;
-    padding-bottom: 15px;
-    width: 100%;
-    margin-bottom: 0;
-    border-bottom: 2px #F5F5F5	 solid;
-    
+  font-size: 1rem;
+  color: #282828;
+  font-weight: bold;
+  padding-bottom: 15px;
+  width: 100%;
+  margin-bottom: 0;
+  border-bottom: 2px #F5F5F5 solid;
 }
-
 .sidefilter h2 {
-    font-size: .8rem;
+  font-size: 1rem;
 }
-
-.sidefilter > p{
-    padding: 10px 15px;
-    margin: 0;
+.sidefilter>p {
+  padding: 10px 15px;
+  margin: 0;
 }
-
-.sidefilter > p:hover {
-    color: white;
-    background-color: #DDE1E6 ;
- 
+.sidefilter>p:hover {
+  color: white;
+  background-color: #DDE1E6;
 }
-
 .seperator_icon {
-    
-    color:#2ec6ff;
-    letter-spacing: 2px;
-    font-weight: 500;
+  font-size: 1rem;
+  color: #2ec6ff;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
-
-seperator:hover{
-    color: initial; /* Takes initial value of the property which is black in this case */
+.sidefilter>.seperator_icon:hover {
+  background-color: initial;
+  color: #2ec6ff;
 }
-
-.header{
-    width: 91%;
+.header {
+  width: 91%;
 }
-
 .slogan {
-    text-align: center;
-    color: #2ec6ff;
-    letter-spacing: 2px;
-    font-weight: normal;
-    margin: 80px 0;
-    font-size: 2rem;
+  text-align: center;
+  color: #2ec6ff;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin: 80px 0;
+  font-size: 2rem;
 }
-
-.section {
-    width: 100%;
-    height: 100%;
-}
-
-.pagecontent{
-    margin-left: 20%;
-
-  
-    overflow-x: auto;
- 
+.section {}
+.pagecontent {
+  margin-left: 20%;
+  overflow: hidden;
 }
