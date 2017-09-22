@@ -20,3 +20,17 @@
   height: 200px;
   background: #D092E3
 }
+
+img {
+    transition: all .4s ease-in-out;
+}
+
+.hide {
+  transform: scale(0);
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin:0;
+  transition: all .4s ease-in-out;
+
+}

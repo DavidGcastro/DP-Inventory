@@ -20,7 +20,7 @@
   padding: 10px 15px;
   margin: 0;
 }
-.sidefilter>p:hover {
+.sidefilter-item:hover {
   color: white;
   background-color: #DDE1E6;
 }
@@ -30,7 +30,8 @@
   letter-spacing: 2px;
   font-weight: bold;
 }
-.sidefilter>.seperator_icon:hover {
-  background-color: initial;
-  color: #2ec6ff;
+
+.side-filter-item_selected {
+  color: white;
+  background-color: #DDE1E6;
 }
