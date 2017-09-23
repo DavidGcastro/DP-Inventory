@@ -9,23 +9,37 @@ var container = document.querySelector('#masonry');
 
 //Sidefilter logic
 $(document).ready(function(){
+
 $( ".sidefilter-item" ).on( "click", function() {
-	 var filter = $(this).attr('id');
-	  $('.side-filter-item').addClass('.side-filter-item_selected');
-	 		
+    $(this).addClass("side-filter-item_selected"); 	
+    $(this).find('.close').addClass("fa fa-times"); 
+    //add function to sort images
+    //adding click adds variable
+    //clicking on additional sidefilter items adds items to be filters
+});
 
+//$('.sidefilter-item').on("click", '.close', function(){
+//    $(this).parent().removeClass('.side-filter-item_selected');
+//  
+//})
 
+$('.close').click(function(e){
+    //function to take elements out of filter
+            e.stopPropagation();
+            $(this).removeClass('fa fa-times');
+            $(this).parent().removeClass("side-filter-item_selected");
+                
+});
 
-
-	 $("img").addClass('hide');
-	 setTimeout(function(){
-        $("." + filter).removeClass("hide");
-	 },100);
-     
- 	
-
- 	
- 
 
 });
-});
+
+
+
+
+
+	 // var filter = $(this).attr('id');
+	 // $("img").addClass('hide');
+	 // setTimeout(function(){
+  //       $("." + filter).removeClass("hide");
+	 // },100);

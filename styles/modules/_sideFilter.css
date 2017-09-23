@@ -35,3 +35,10 @@
   color: white;
   background-color: #DDE1E6;
 }
+
+ .fa-times {
+   font-size: 16px;
+   float: right;
+   padding: 0;
+   margin-top: 3px;
+}

@@ -8,6 +8,7 @@ nav {
   display: block;
   background: #00AEEF;
   padding: 0 10px;
+  border-radius: 10px;
 }
 ul {
   margin: 0;
