@@ -135,8 +135,9 @@ a:hover {
 .fa-times {
    font-size: 16px;
    float: right;
-   padding: 0;
-   margin-top: 3px;
+   padding: 5px;
+   margin-top: -1px;
+   
 }
 .header {
   width: 87%;
