@@ -2,11 +2,11 @@ nav {
   width: 100%;
 }
 .logo {
-  color: white;
+  color: #2ec6ff;
   letter-spacing: 1.5px;
   font-weight: 600;
   display: block;
-  background: #00AEEF;
+/*  background: #00AEEF;*/
   padding: 0 10px;
   border-radius: 10px;
 }
